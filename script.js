@@ -3,8 +3,8 @@
  L’utente inserisce due numeri in successione, con due prompt. Il software stampa il maggiore
 */
 
-let primoNumero = prompt("inserisci il primo numero:");
-let secondoNumero = prompt("inserisci il secondo numero:");
+let primoNumero = parseFloat(prompt("inserisci il primo numero:"));
+let secondoNumero = parseFloat(prompt("inserisci il secondo numero:"));
 
 if (primoNumero > secondoNumero){
     console.log("il numero maggiore è:", primoNumero);
